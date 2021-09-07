@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: #ddcebb;
+}
+
+body {
+  background-color: #09090c;
+  background-color: #000;
+}
+
+main {
+  padding-top: 91px;
+  padding-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.titulo-nome {
+  margin: 0px 5px 0px 0px;
+  color: #ddcebb;
+}
+
+.titulo-sobrenome {
+  color: #757575;
+}
+
+.verde-principal-color {
+  color: #64f4ab;
+}
+
+.titulo-principal-color {
+  color: #eedfcc;
+}
+
+.descricao-principal-color {
+  color: rgb(143, 127, 97);
+}
+
+.box-secao-fundo-padrao {
+  background-color: #09090c;
+  background-color: #25262a;
+  border: 1px;
+  border-radius: 25px;
+  margin: 0px 30px;
+  padding: 10px;
+}
+
+.box-item-padrao {
+  border: #64f4ab solid 2px;
+  background-color: rgba(28, 71, 50, 0.7);
+}

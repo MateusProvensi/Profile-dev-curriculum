@@ -1,0 +1,54 @@
+.rodape {
+  display: flex;
+  padding: 15px 30px;
+  justify-content: space-between;
+  background-color: #09090c;
+  background-color: #25262a;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.titulo-rodape {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  width: 230px;
+  color: #ddcebb;
+}
+
+.referencias {
+  font-size: 12px;
+}
+
+.mensagem-rodape {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  font-size: 25px
+}
+
+.destaque-mensagem-rodape {
+  font-weight: bolder;
+}
+
+.inicio-mensagem-rodape {
+  margin: 0px 5px 0px 0px;
+}
+
+.icons-referencia-contato {
+  display: flex;
+  flex-direction: column;
+}
+
+.contatos-rodape {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contatos-rodape img {
+  width: 30px;
+  height: 30px;
+}
+
+.contatos-rodape a {
+  margin: 0px 5px 5px 5px;
+}
