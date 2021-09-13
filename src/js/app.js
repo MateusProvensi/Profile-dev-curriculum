@@ -25,11 +25,13 @@ navCabecalho.forEach((elemento) => {
     const destinoOriginal = document.querySelectorAll(
       elemento.getAttribute("href")
     )[0];
+    
+    console.log(destinoOriginal.id);
 
     if (destinoOriginal.id === "experiencias-sobremim") {
-      window.scrollTo(0, destinoOriginal.scrollHeight - -50);
+      window.scrollTo(0, destinoOriginal.scrollHeight - 140);
     } else if (destinoOriginal.id === "tecnologias") {
-      window.scrollTo(0, destinoOriginal.scrollHeight - 35);
+      window.scrollTo(0, destinoOriginal.scrollHeight - 95);
     } else if (destinoOriginal.id === "contatos") {
       window.scrollTo(0, destinoOriginal.scrollHeight - -900);
     }
