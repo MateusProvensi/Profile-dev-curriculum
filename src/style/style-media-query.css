@@ -1,5 +1,120 @@
-@media (max-width: 895px){ /*765px*/
+@media (max-width: 915px) {
   .botoes-cabecalho {
     padding: 0%;
+  }
+}
+
+@media (max-width: 852px) {
+  .botoes-cabecalho {
+    display: none;
+  }
+}
+
+@media (max-width: 680px) {
+  .experiencia img {
+    display: none;
+  }
+  .rodape .icons-referencia-contato {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 610px) {
+  .mensagem-inicial {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 570px) {
+  .experiencia-titulo {
+    font-size: 20px;
+  }
+
+  .experiencia-tempo {
+    font-size: 12px;
+  }
+
+  .experiencia-descricao {
+    font-size: 16px;
+  }
+
+  .tecnologia img {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 450px) {
+  .mensagem-inicial {
+    font-size: 58px;
+  }
+
+  .box-experiencias-sobremim-content {
+    flex-direction: column-reverse;
+  }
+
+  .experiencias {
+    width: inherit;
+  }
+
+  .experiencia img {
+    display: inline;
+  }
+
+  .experiencia {
+    margin: 10px 20px;
+  }
+
+  .experiencia-titulo {
+    font-size: 20px;
+  }
+
+  .experiencia-tempo {
+    font-size: 12px;
+  }
+
+  .experiencia-descricao {
+    font-size: 16px;
+  }
+
+  .sobre-mim {
+    width: inherit;
+  }
+
+  .sobre-mim-titulo {
+    text-align: center;
+  }
+
+  .sobre-mim-descricao {
+    font-size: 25px;
+  }
+
+  .tecnologia img {
+    height: 70px;
+    width: 70px;
+  }
+
+  .descricao-contato-cabecalho {
+    display: none;
+  }
+
+  .rodape .mensagem-rodape {
+    margin: 0 10px;
+    font-size: 25px;
+  }
+
+  .rodape .icons-referencia-contato {
+    text-align: justify;
+    justify-content: center;
+  }
+
+  .rodape .contatos-rodape img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .rodape .referencias {
+    font-size: 8px;
   }
 }
