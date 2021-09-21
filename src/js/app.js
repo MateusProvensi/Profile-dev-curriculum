@@ -1,3 +1,7 @@
+function getBody() {
+  return document.getElementsByTagName('body')[0]
+}
+
 const navCabecalho = Array.from(
   document.querySelectorAll(".botoes-cabecalho > *")
 );
@@ -27,9 +31,15 @@ navCabecalho.forEach((elemento) => {
     )[0];
 
     if (destinoOriginal.id === "experiencias-sobremim") {
-      window.scrollTo(0, destinoOriginal.scrollHeight - 140);
+
+      const rolagemSerFeita = getBody().classList.contains('english') ? 190 : 140
+      window.scrollTo(0, destinoOriginal.scrollHeight - rolagemSerFeita);
+
     } else if (destinoOriginal.id === "tecnologias") {
-      window.scrollTo(0, destinoOriginal.scrollHeight - 95);
+
+      const rolagemSerFeita = getBody().classList.contains('english') ? 50 : 95
+      window.scrollTo(0, destinoOriginal.scrollHeight - rolagemSerFeita);
+
     } else if (destinoOriginal.id === "contatos") {
       window.scrollTo(0, destinoOriginal.scrollHeight - -900);
     }
