@@ -5,9 +5,9 @@
 This repository has my Profile Dev (curriculum). It Has a version in Brazilian Portuguese and the other in English.
 
 It is understood:
-* 'index.html': Brazilian Portuguese
+* 'index.html': English 
 
-* 'index_english.html': English
+* 'index_portuguese.html': Brazilian Portuguese
 
 ### 👨‍💻👩‍💻 How I can see?
 
