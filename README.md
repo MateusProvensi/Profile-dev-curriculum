@@ -19,7 +19,7 @@ For this project, will be need to have the extension 'Live server' in the Visual
 git clone https://github.com/MateusProvensi/jogo-da-velha-js.git
 ```
 
-2. Now, you just need to press the right click mouse on 'index.html' or 'index_english.html' and choose 'Open with Live Server'
+2. Now, you just need to press the right click mouse on 'index.html' or 'index_portuguese.html' and choose 'Open with Live Server'
 
 
 # Soon
